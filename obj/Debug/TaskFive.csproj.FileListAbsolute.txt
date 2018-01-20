@@ -1,0 +1,7 @@
+C:\Users\Daria\source\repos\TaskFive\TaskFive\bin\Debug\TaskFive.exe.config
+C:\Users\Daria\source\repos\TaskFive\TaskFive\bin\Debug\TaskFive.exe
+C:\Users\Daria\source\repos\TaskFive\TaskFive\bin\Debug\TaskFive.pdb
+C:\Users\Daria\source\repos\TaskFive\TaskFive\obj\Debug\TaskFive.csprojResolveAssemblyReference.cache
+C:\Users\Daria\source\repos\TaskFive\TaskFive\obj\Debug\TaskFive.csproj.CoreCompileInputs.cache
+C:\Users\Daria\source\repos\TaskFive\TaskFive\obj\Debug\TaskFive.exe
+C:\Users\Daria\source\repos\TaskFive\TaskFive\obj\Debug\TaskFive.pdb
