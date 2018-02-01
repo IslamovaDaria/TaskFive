@@ -11,15 +11,27 @@ namespace TaskFive
     {
         static void Main(string[] args)
         {
-            StreamReader f = new StreamReader("input.txt");
-            string buf = f.ReadLine();
-            int size = Convert.ToInt32(buf);
-            string[][] buf_arr = new string[size][];
-            string s;
-            int i = -1;
-                        while ((s = f.ReadLine()) != null)
-                buf_arr[++i] = s.Split(' ');
-            f.Close();
+            int size;
+            string[][] buf_arr;
+            try
+            {
+                StreamReader f = new StreamReader("input.txt");
+                string buf = f.ReadLine();
+                size = Convert.ToInt32(buf);
+                buf_arr = new string[size][];
+                string s;
+                int i = -1;
+                while ((s = f.ReadLine()) != null)
+                    buf_arr[++i] = s.Split(' ');
+                f.Close();
+            }
+
+            catch
+            {
+                Console.WriteLine("Файл input.txt не существует или его содержимое не удовлетворяет требованиям программы!");
+                Console.ReadLine();
+                return;
+            }
 
             double[,] arr = new double[size, size];
                         for (int j = 0; j < size; j++)
@@ -50,6 +62,5 @@ namespace TaskFive
             }
             Console.WriteLine();
         }
-
     }
 }
